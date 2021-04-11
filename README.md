@@ -6,11 +6,9 @@
 
 Define una sintaxis para la creación de variables con tipo de dato.
 
-_Definición Post Fija_
+### Definición Post Fija:
 
 `variableName : dataType`
-
-``
 
 ### nomVariable:
 
@@ -91,3 +89,8 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 
 - `Object`: instancia de la clase Object de la clase de JavaScript
 - `object`: Tipo para valores no primitivos. Con este tipo no se puede acceder a las propiedades de un objeto
+
+### Tipo: Array
+
+- Al igual que JavaScript, TypeScript permite definir un arreglo para contener un conjunto de valores.
+- Usa dos notaciones: `[]` y `Array<tipo>`

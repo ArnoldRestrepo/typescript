@@ -33,7 +33,7 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 - Valores Biarios
 - Valores Hoctales
 
-### Tipo: Boolean
+### Tipo: Boolean
 
 - El tipo de dato más simple en TypeScript
 - Dos únicos valores: true y false
@@ -86,3 +86,8 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 
 - `object` es el tipo de dato que representa un valor no primitivo
 - Es el tipo para cualquier variable que no sea number, string, boolean, null, undefined, etc
+
+#### Object vs object
+
+- `Object`: instancia de la clase Object de la clase de JavaScript
+- `object`: Tipo para valores no primitivos. Con este tipo no se puede acceder a las propiedades de un objeto

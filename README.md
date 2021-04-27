@@ -100,3 +100,8 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 - Una tupla en TypeScript es un array de elementos que están tipados. De esta manera cada vez que haya que insertar un elemento se validará que dicho elemento coincida con el tipo de dato establecido en la tupla.
 - Las tuplas permiten expresar un arreglo con un número fijo de elementos
 - Los tipos de datos son conocidos
+
+### Tipo: Enum
+
+- Los enumerados permiten definir un conjunto de constantes con nombre
+- Tienen la ventaja de adaptarse al contexto de la aplicación

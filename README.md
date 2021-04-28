@@ -128,3 +128,9 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 - Es un mensaje al compilador: "Confía en mí, se lo que hago"
 - Se parece al casting de tipos en otros lenguaje de programación
 - Usa dos sintaxis: `<Angle Bracket>` y `(variable as type)`
+
+### Functions in TypeScript
+- Los parámetros en las funciones son tipados
+- Se pueden definir parámetros opcionales
+- El tipo de retorno puede ser un tipo básico,enum, alias, tipo literal o una combinación de ellos.
+

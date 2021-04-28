@@ -37,4 +37,3 @@ type SquareSize = '100x100' | "450x450" | "1080x1080";
 let smallPicture: SquareSize = "1080x1080";
 
 console.log(smallPicture);
-

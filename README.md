@@ -121,3 +121,10 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 
 - Una variable con un tipo literal puede contener únicamente una cadena del conjunto.
 - Se usan cadenas como "tipos" combinados con el símbolo de pipe '|' entre ellos
+
+### Type Assertions
+
+- Cuando un programados puede conocer más que TypeScript sobre el valor de una variable
+- Es un mensaje al compilador: "Confía en mí, se lo que hago"
+- Se parece al casting de tipos en otros lenguaje de programación
+- Usa dos sintaxis: `<Angle Bracket>` y `(variable as type)`

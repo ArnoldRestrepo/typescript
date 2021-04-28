@@ -105,3 +105,19 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 
 - Los enumerados permiten definir un conjunto de constantes con nombre
 - Tienen la ventaja de adaptarse al contexto de la aplicación
+
+### Unión de Tipos, Alias y Tipos Literales
+
+- En TypeScript se puede definir una variable con múltiples tipos de datos: Union Type
+- Se usa el símbolo de _pipe_ `("|")` entre los tipos
+
+#### Alias de Tipos
+
+- TypeScript permite crear alias como nuevo nombre para un tipo
+- El alias de puede aplicar también a un conjunto o combinación de tipos
+- Se usa la palabra reservada `type`
+
+#### Literal Types
+
+- Una variable con un tipo literal puede contener únicamente una cadena del conjunto.
+- Se usan cadenas como "tipos" combinados con el símbolo de pipe '|' entre ellos

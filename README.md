@@ -134,3 +134,18 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 - Se pueden definir parámetros opcionales
 - El tipo de retorno puede ser un tipo básico,enum, alias, tipo literal o una combinación de ellos.
 
+
+### Interface in Typescript
+- Las interfaces constituyen un "contrato" tanto para el proyecto como de forma externa.
+
+### Interfaces Propiedades Opcionales
+- No todas las propiedades de una interfaz podrían ser requeridas
+- Establecemos una propiedad como opcional con el símbolo (?), después del nombre
+
+### Interfaces de Solo Lectura
+- Algunas Propiedades de la interfaz podrían no ser modificables una vez creado el objeto
+- Esto es posible usando readonly antes del nombre de la propiedad
+
+### Extendiendo Interfaces
+- Las interfaces pueden extenderse unas de otras
+- Esto permite copiar los miembros ya definidos de una interfaz a otra, ganando flexibilidad y reusabilidad de componentes

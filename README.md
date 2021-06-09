@@ -149,3 +149,7 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 ### Extendiendo Interfaces
 - Las interfaces pueden extenderse unas de otras
 - Esto permite copiar los miembros ya definidos de una interfaz a otra, ganando flexibilidad y reusabilidad de componentes
+
+### Clases y Constructores
+- A partir de **ECMAScript 2015** es posible construir clases y hacer uso de POO en JavaScript
+- TypeScript permite aplicar técnicas sin tener que esperar por otra versión

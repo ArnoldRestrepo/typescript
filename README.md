@@ -164,3 +164,6 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 ### Miembros Privados ECMAScript
 -TypeScript también soporta (a partir de la *versión 3.9*) la nueva sintaxis JavaScript para miembros privados: `#atributo`
 - Esta característica puede ofrecer mejores garantías de aislamiento en miembros privados
+
+# Clases Métodos Set y Get
+- TypeScript soporta los métodos de accesores `get` y `set` como una forma de interceptar los accesos a los miembros privados de un objeto

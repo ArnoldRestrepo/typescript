@@ -153,3 +153,14 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 ### Clases y Constructores
 - A partir de **ECMAScript 2015** es posible construir clases y hacer uso de POO en JavaScript
 - TypeScript permite aplicar técnicas sin tener que esperar por otra versión
+
+### Clases Públicas
+- TypeScript define un modificados de acceso público por defecto para los miembros de clase
+- Es posible marcar un miembro como público usando la plabra reservada `public`
+
+### Clases Privadas
+- TypeScript define una manera propia de declarar o marcar un miembro como privado usando la palabra reservada `private`
+
+### Miembros Privados ECMAScript
+-TypeScript también soporta (a partir de la *versión 3.9*) la nueva sintaxis JavaScript para miembros privados: `#atributo`
+- Esta característica puede ofrecer mejores garantías de aislamiento en miembros privados

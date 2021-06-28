@@ -167,3 +167,17 @@ TypeScript tiene la habilidad de "deducir" el tipo en funcion de un valor.
 
 # Clases Métodos Set y Get
 - TypeScript soporta los métodos de accesores `get` y `set` como una forma de interceptar los accesos a los miembros privados de un objeto
+
+# Herencia de Clases y Miembros Protegidos
+- TypeScript soporta este patrón común en el mundo de la POO
+- Implementa la habilidad de extender código de clases existentesa través de la *herencia*
+
+# Clases Abstractas
+- Las clases Abstractas son la base de donde otras clases pueden derivarse
+- A diferencia de una interfaz, una clase abstracta puede implementar funciones para sus instancias
+- La palabra reservada es: `abtract`
+
+# Propiedades Estáticas y Propiedades de Solo Lectura
+- Las clases por lo general definen atributos y métodos aplicables a las instancias de las mismas
+- A través de la palabra reservada `static` se puede definir un miembro visible a nivel de la clase
+- Al igual que las interfaces, podemos usal la palabra reservada `readonly` para marcar el miembro de una clase como solo lectura
